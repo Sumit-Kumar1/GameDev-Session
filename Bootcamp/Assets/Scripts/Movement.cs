@@ -2,16 +2,24 @@
 
 public class Movement : MonoBehaviour
 {
-
+    public float fwdForce = 1000f;
+    public float sideForce = 500f;
     public Rigidbody x;
     void Start()
     {
-        x.AddForce(0, 200, 500);
+        x = GetComponent<Rigidbody>();
+        
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void FixedUpdate() {
+        x.AddForce(0, 0, fwdForce*Time.deltaTime);
+        if(Input.GetKey("a"))
+        {
+            x.AddForce(-sideForce, 0,0);
+        }
+        if(Input.GetKey("d"))
+        {
+            x.AddForce(sideForce,0,0);
+        }
     }
 }
