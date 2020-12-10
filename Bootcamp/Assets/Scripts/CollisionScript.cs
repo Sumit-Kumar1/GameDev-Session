@@ -19,5 +19,10 @@ public class CollisionScript : MonoBehaviour
             FindObjectOfType<Gamemanager>().Restart();
            //playerRigid.constraints = RigidbodyConstraints.FreezeAll;
         }
+        if(other.collider.tag == "nextLevel")
+        {
+            mmt.enabled = false;
+            FindObjectOfType<Gamemanager>().NextLevel();
+        }
     }
 }
