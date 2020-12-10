@@ -11,7 +11,6 @@ public class Movement : MonoBehaviour
         x = GetComponent<Rigidbody>();
         
     }
-
     private void FixedUpdate() {
 
         x.AddForce(0, 0, fwdForce*Time.deltaTime);
