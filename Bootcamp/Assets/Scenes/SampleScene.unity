@@ -227,6 +227,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 626262181}
     m_Modifications:
+    - target: {fileID: 2263306536578742218, guid: f9e47e7c1bb5098479baf53e68f958c0,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2263306536578742218, guid: f9e47e7c1bb5098479baf53e68f958c0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4234831929372499965, guid: f9e47e7c1bb5098479baf53e68f958c0,
         type: 3}
       propertyPath: m_RootOrder
@@ -287,6 +297,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube
       objectReference: {fileID: 0}
+    - target: {fileID: 5573027374958791678, guid: f9e47e7c1bb5098479baf53e68f958c0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9e47e7c1bb5098479baf53e68f958c0, type: 3}
 --- !u!4 &96103537 stripped
@@ -302,6 +317,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 626262181}
     m_Modifications:
+    - target: {fileID: 2263306536578742218, guid: f9e47e7c1bb5098479baf53e68f958c0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4234831929372499965, guid: f9e47e7c1bb5098479baf53e68f958c0,
         type: 3}
       propertyPath: m_RootOrder
@@ -362,6 +382,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5573027374958791678, guid: f9e47e7c1bb5098479baf53e68f958c0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9e47e7c1bb5098479baf53e68f958c0, type: 3}
 --- !u!4 &102110928 stripped
@@ -370,6 +395,49 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 102110927}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &115184034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 115184036}
+  - component: {fileID: 115184035}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &115184035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115184034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6772cc7bdfb825e40a1d45ec5db3e6f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &115184036
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115184034}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.7849998, z: 1.8699999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &507394314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -377,6 +445,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 626262181}
     m_Modifications:
+    - target: {fileID: 2263306536578742218, guid: f9e47e7c1bb5098479baf53e68f958c0,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2263306536578742218, guid: f9e47e7c1bb5098479baf53e68f958c0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4234831929372499965, guid: f9e47e7c1bb5098479baf53e68f958c0,
         type: 3}
       propertyPath: m_RootOrder
@@ -437,6 +515,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube
       objectReference: {fileID: 0}
+    - target: {fileID: 5573027374958791678, guid: f9e47e7c1bb5098479baf53e68f958c0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9e47e7c1bb5098479baf53e68f958c0, type: 3}
 --- !u!4 &507394315 stripped
@@ -478,8 +561,8 @@ Transform:
   - {fileID: 102110928}
   - {fileID: 1877800486}
   - {fileID: 1259434928}
-  - {fileID: 1741682276}
   - {fileID: 781082259}
+  - {fileID: 1741682276}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -497,6 +580,7 @@ GameObject:
   - component: {fileID: 645402874}
   - component: {fileID: 645402879}
   - component: {fileID: 645402878}
+  - component: {fileID: 645402880}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -591,7 +675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fwdForce: 1000
-  sideForce: 500
+  sideForce: 200
   x: {fileID: 645402879}
 --- !u!54 &645402879
 Rigidbody:
@@ -609,6 +693,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &645402880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645402873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c81828c08be57340b6cd30a30436570, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mmt: {fileID: 645402878}
+  playerRigid: {fileID: 645402879}
 --- !u!1001 &781082258
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -616,10 +714,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 626262181}
     m_Modifications:
+    - target: {fileID: 2263306536578742218, guid: f9e47e7c1bb5098479baf53e68f958c0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4234831929372499965, guid: f9e47e7c1bb5098479baf53e68f958c0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4234831929372499965, guid: f9e47e7c1bb5098479baf53e68f958c0,
         type: 3}
@@ -675,6 +778,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cube (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5573027374958791678, guid: f9e47e7c1bb5098479baf53e68f958c0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9e47e7c1bb5098479baf53e68f958c0, type: 3}
@@ -784,6 +892,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 626262181}
     m_Modifications:
+    - target: {fileID: 2263306536578742218, guid: f9e47e7c1bb5098479baf53e68f958c0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4234831929372499965, guid: f9e47e7c1bb5098479baf53e68f958c0,
         type: 3}
       propertyPath: m_RootOrder
@@ -844,6 +957,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5573027374958791678, guid: f9e47e7c1bb5098479baf53e68f958c0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9e47e7c1bb5098479baf53e68f958c0, type: 3}
 --- !u!4 &976055235 stripped
@@ -859,6 +977,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 626262181}
     m_Modifications:
+    - target: {fileID: 2263306536578742218, guid: f9e47e7c1bb5098479baf53e68f958c0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4234831929372499965, guid: f9e47e7c1bb5098479baf53e68f958c0,
         type: 3}
       propertyPath: m_RootOrder
@@ -918,6 +1041,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cube (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5573027374958791678, guid: f9e47e7c1bb5098479baf53e68f958c0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9e47e7c1bb5098479baf53e68f958c0, type: 3}
@@ -1026,10 +1154,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 626262181}
     m_Modifications:
+    - target: {fileID: 2263306536578742218, guid: f9e47e7c1bb5098479baf53e68f958c0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4234831929372499965, guid: f9e47e7c1bb5098479baf53e68f958c0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4234831929372499965, guid: f9e47e7c1bb5098479baf53e68f958c0,
         type: 3}
@@ -1086,6 +1219,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5573027374958791678, guid: f9e47e7c1bb5098479baf53e68f958c0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9e47e7c1bb5098479baf53e68f958c0, type: 3}
 --- !u!4 &1741682276 stripped
@@ -1101,6 +1239,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 626262181}
     m_Modifications:
+    - target: {fileID: 2263306536578742218, guid: f9e47e7c1bb5098479baf53e68f958c0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4234831929372499965, guid: f9e47e7c1bb5098479baf53e68f958c0,
         type: 3}
       propertyPath: m_RootOrder
@@ -1160,6 +1303,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cube (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5573027374958791678, guid: f9e47e7c1bb5098479baf53e68f958c0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9e47e7c1bb5098479baf53e68f958c0, type: 3}
