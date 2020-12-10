@@ -9,9 +9,9 @@ public class Movement : MonoBehaviour
     void Start()
     {
         x = GetComponent<Rigidbody>();
-        
     }
-    private void FixedUpdate() {
+    private void FixedUpdate() 
+    {
 
         x.AddForce(0, 0, fwdForce*Time.deltaTime);
         if(Input.GetKey("a")||Input.GetKey(KeyCode.LeftArrow))
