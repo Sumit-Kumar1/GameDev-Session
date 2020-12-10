@@ -8,23 +8,6 @@ public class Movement : MonoBehaviour
     public Rigidbody x;
     void Start()
     {
-<<<<<<< HEAD
-       
-    }
-
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        
-        x.AddForce(0, 0, 1000 * Time.deltaTime);
-        if(Input.GetKey("d"))
-        {
-            x.AddForce(500 * Time.deltaTime, 0, 0);
-        }
-        else if(Input.GetKey("a"))
-        {
-            x.AddForce(-500 * Time.deltaTime, 0, 0);
-=======
         x = GetComponent<Rigidbody>();
         
     }
@@ -38,7 +21,6 @@ public class Movement : MonoBehaviour
         if(Input.GetKey("d"))
         {
             x.AddForce(sideForce,0,0);
->>>>>>> 3949779b4d1cd5de15c8b830681c95989ac806a5
         }
     }
 }
