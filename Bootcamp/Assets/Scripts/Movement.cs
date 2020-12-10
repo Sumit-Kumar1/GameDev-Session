@@ -13,6 +13,7 @@ public class Movement : MonoBehaviour
     }
 
     private void FixedUpdate() {
+        
         x.AddForce(0, 0, fwdForce*Time.deltaTime);
         if(Input.GetKey("a"))
         {
