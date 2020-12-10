@@ -15,7 +15,9 @@ public class CollisionScript : MonoBehaviour
     {
         if(other.collider.tag == "Obstacle")
         {
-           playerRigid.constraints = RigidbodyConstraints.FreezeAll;
+            mmt.enabled = false;
+            FindObjectOfType<Gamemanager>().Restart();
+           //playerRigid.constraints = RigidbodyConstraints.FreezeAll;
         }
     }
 }
