@@ -22,5 +22,7 @@ public class Movement : MonoBehaviour
         {
             x.AddForce(sideForce,0,0);
         }
+        if(x.transform.position.y < -2)
+            FindObjectOfType<Gamemanager>().Restart();
     }
 }
